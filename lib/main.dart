@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:jawla_app/screens/SignUp.dart';
+import 'package:jawla_app/screens/login_screen.dart';
 import 'package:jawla_app/screens/my_navigation_bar.dart';
 
 void main() async {
@@ -16,7 +18,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: MyNavigationBar(),
+        body: SignUp(),
       ),
     );
   }
